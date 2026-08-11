@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": 3,
+    "title": "Charmie Kapoor",
+    "url": "https://www.charmiekapoor.com/",
+    "description": "Designer, Razorpay",
+    "createdAt": "2026-08-11T22:15:47Z"
+  },
+  {
+    "id": 2,
+    "title": "Swasti Solanki",
+    "url": "https://www.swastisolanki.com/",
+    "description": "Designer, NYC",
+    "createdAt": "2026-08-11T22:15:45Z"
+  },
+  {
+    "id": 1,
+    "title": "Pauline Wee",
+    "url": "https://worldtimebestie.app/",
+    "description": "Playground, World Time",
+    "createdAt": "2026-08-11T22:15:42Z"
+  }
+]
