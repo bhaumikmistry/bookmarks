@@ -66,7 +66,12 @@ async function main() {
       ...parseBody(issue.body),
       createdAt: issue.created_at,
     }))
-    .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
+    // Newest first. Seeding created a dozen issues inside the same second and
+    // created_at has no sub-second precision, so id breaks the tie.
+    .sort((a, b) => {
+      const d = new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
+      return d !== 0 ? d : b.id - a.id
+    })
 
   const { writeFileSync } = await import('fs')
   writeFileSync('api.json', JSON.stringify(bookmarks, null, 2) + '\n')
