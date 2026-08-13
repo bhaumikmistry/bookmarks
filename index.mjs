@@ -62,7 +62,10 @@ async function main() {
     .filter((i) => !i.pull_request)
     .map((issue) => ({
       id: issue.number,
-      title: issue.title.trim(),
+      // A favourite used to be marked by typing a star into the title, which
+      // then had to be stripped everywhere it was displayed. It is a label now.
+      title: issue.title.replace(/[\u2b50\u2605\u2606]/g, '').trim(),
+      favorite: issue.labels.some((l) => (typeof l === 'string' ? l : l.name) === 'favorite'),
       ...parseBody(issue.body),
       createdAt: issue.created_at,
     }))
@@ -78,6 +81,7 @@ async function main() {
 
   const missing = bookmarks.filter((b) => !b.url).length
   console.log(`Written api.json with ${bookmarks.length} entries`)
+  console.log(`  ${bookmarks.filter((b) => b.favorite).length} favourite`)
   if (missing) console.log(`  ${missing} with no usable URL`)
 }
 
