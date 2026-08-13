@@ -22,6 +22,12 @@ issue list quiet. Both open and closed issues show on the site.
 
 To remove a bookmark, delete the issue.
 
+## Favourites
+
+Add the `favorite` label and the site shows a star next to the name. Do not
+type a star into the title: it has to be stripped again everywhere the title is
+displayed, so any that appear there are removed on the way into `api.json`.
+
 ## Why closing does nothing here
 
 The sibling repo [reads](https://github.com/bhaumikmistry/reads) uses the same
@@ -37,6 +43,7 @@ Regenerated on every issue opened, closed, reopened, edited, or commented on.
   {
     "id": 1,
     "title": "Aashna Doshi",
+    "favorite": false,
     "url": "https://www.aashnadoshi.com",
     "description": "Software Engineer @ Google | Podcast Host | Creator",
     "createdAt": "2026-08-11T00:00:00Z"
