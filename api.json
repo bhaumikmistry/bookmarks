@@ -2,6 +2,7 @@
   {
     "id": 12,
     "title": "Aashna Doshi",
+    "favorite": false,
     "url": "https://www.aashnadoshi.com",
     "description": "Software Engineer @ Google | Podcast Host | Creator",
     "createdAt": "2026-08-11T22:16:09Z"
@@ -9,13 +10,15 @@
   {
     "id": 11,
     "title": "Brian Lovin",
+    "favorite": false,
     "url": "https://brianlovin.com",
     "description": "Software designer, making AI products at Notion",
     "createdAt": "2026-08-11T22:16:07Z"
   },
   {
     "id": 10,
-    "title": "Alana Goyal ⭐",
+    "title": "Alana Goyal",
+    "favorite": true,
     "url": "https://www.alanagoyal.com",
     "description": "founder & managing partner of basecase capital",
     "createdAt": "2026-08-11T22:16:04Z"
@@ -23,6 +26,7 @@
   {
     "id": 9,
     "title": "Keya Vadgama",
+    "favorite": false,
     "url": "https://keyavadgama.com/",
     "description": "Designer, artist, writer.",
     "createdAt": "2026-08-11T22:16:02Z"
@@ -30,6 +34,7 @@
   {
     "id": 8,
     "title": "Michelle Liu",
+    "favorite": false,
     "url": "https://liumichelle.com",
     "description": "Designer, Art, Cognitive Science, UCLA '26",
     "createdAt": "2026-08-11T22:15:59Z"
@@ -37,6 +42,7 @@
   {
     "id": 7,
     "title": "Shivani Matlapudi",
+    "favorite": false,
     "url": "https://www.shivanimatlapudi.com/",
     "description": "Product designer",
     "createdAt": "2026-08-11T22:15:57Z"
@@ -44,6 +50,7 @@
   {
     "id": 6,
     "title": "Antje Barth",
+    "favorite": false,
     "url": "https://antje.dev/",
     "description": "Member of Technical Staff · Keynote Speaker · Author",
     "createdAt": "2026-08-11T22:15:54Z"
@@ -51,6 +58,7 @@
   {
     "id": 5,
     "title": "Sushil Kakar",
+    "favorite": false,
     "url": "https://suhailkakar.com/",
     "description": "Software engineer and writer",
     "createdAt": "2026-08-11T22:15:52Z"
@@ -58,6 +66,7 @@
   {
     "id": 4,
     "title": "Nicolás Garro",
+    "favorite": false,
     "url": "https://www.evilrabbit.com/",
     "description": "Design Engineer, Evil Rabbit",
     "createdAt": "2026-08-11T22:15:49Z"
@@ -65,6 +74,7 @@
   {
     "id": 3,
     "title": "Charmie Kapoor",
+    "favorite": false,
     "url": "https://www.charmiekapoor.com/",
     "description": "Designer, Razorpay",
     "createdAt": "2026-08-11T22:15:47Z"
@@ -72,6 +82,7 @@
   {
     "id": 2,
     "title": "Swasti Solanki",
+    "favorite": false,
     "url": "https://www.swastisolanki.com/",
     "description": "Designer, NYC",
     "createdAt": "2026-08-11T22:15:45Z"
@@ -79,6 +90,7 @@
   {
     "id": 1,
     "title": "Pauline Wee",
+    "favorite": false,
     "url": "https://worldtimebestie.app/",
     "description": "Playground, World Time",
     "createdAt": "2026-08-11T22:15:42Z"
