@@ -11,10 +11,10 @@ Open an issue. The title is the name, the first line of the body is the URL,
 and an optional second line is the description.
 
 ```
-Title:  Aashna Doshi
+Title:  Widget Foundry
 
-Body:   https://www.aashnadoshi.com
-        Software Engineer @ Google | Podcast Host | Creator
+Body:   https://example.com/widget-foundry
+        Makes widgets. Occasionally sprockets.
 ```
 
 Then close it. Closing changes nothing about how it displays, it just keeps the
@@ -42,10 +42,10 @@ Regenerated on every issue opened, closed, reopened, edited, or commented on.
 [
   {
     "id": 1,
-    "title": "Aashna Doshi",
+    "title": "Widget Foundry",
     "favorite": false,
-    "url": "https://www.aashnadoshi.com",
-    "description": "Software Engineer @ Google | Podcast Host | Creator",
+    "url": "https://example.com/widget-foundry",
+    "description": "Makes widgets. Occasionally sprockets.",
     "createdAt": "2026-08-11T00:00:00Z"
   }
 ]
